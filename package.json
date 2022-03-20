@@ -15,7 +15,6 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.21.1",
-    "babel-loader": "^8.2.3",
     "bootstrap": "^5.0.2",
     "css-loader": "^6.7.1",
     "daterangepicker": "^3.1.0",
@@ -33,10 +32,7 @@
     "sass-loader": "^12.1.0",
     "select2": "^4.1.0-rc.0",
     "styled-components": "^5.3.3",
-    "web-vitals": "^1.1.2",
-    "webpack": "^5.20.1",
-    "webpack-cli": "^4.5.0",
-    "webpack-dev-server": "^4.7.4"
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",

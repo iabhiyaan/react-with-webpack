@@ -1,20 +1,15 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 class About extends Component {
-    state = {
-        count: 44, 
-    };
-    render() {
-       
-        return (
-            <React.Fragment>
-                <div className="container">
-                    <h1> About Us</h1>
-                     
-                     
-                </div>
-            </React.Fragment>
-        );
-    }
+   state = {
+      count: 44,
+   }
+   render() {
+      return (
+         <React.Fragment>
+            <h1> About Us</h1>
+         </React.Fragment>
+      )
+   }
 }
 
-export default About;
+export default About

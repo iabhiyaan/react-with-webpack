@@ -78,7 +78,7 @@ module.exports = {
             filename: "index.html",
             inject: 'body',
             templateParameters: {
-                REACT_APP_NAME: process.env.REACT_APP_NAME,
+                REACT_APP_NAME: process.env.REACT_APP_NAME ?? '',
             },
         }),
         // new InterpolateHtmlPlugin({
